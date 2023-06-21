@@ -206,9 +206,6 @@ def is_between_2pm_and_4pm(purchaseTime):
     trimmedTime = int(purchaseTime.replace(":", ""))
 
     return 1400 < trimmedTime < 1600
-    
-
-#TODO maybe take out debug and get rid of dev server
 
 if __name__ == "__main__":
     app.run(debug=False)
